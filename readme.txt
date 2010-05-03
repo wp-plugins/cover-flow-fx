@@ -18,7 +18,7 @@ The Cover Flow uses the Papervision3D engine and has multiple plane and camera v
 
 Make sure your Wordpress version is equal or greater than 2.8 and your hosting provider is using PHP5.
 
-1. Upload the 'cover-flow-fx` directory along with all its files to the `/wp-content/plugins/` directory
+1. Upload the `cover-flow-fx` directory along with all its files to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. In the post editor use the following tag to embed the Cover Flow: `[cover-flow-fx][/cover-flow-fx]`. Or add `<?php coverflowfx_echo_embed_code(); ?>` in your templates
 4. Go to [FlashXML.net](http://www.flashxml.net/ "Free Flash Components") and [customize your Cover Flow](http://www.flashxml.net/cover-flow.html "Cover Flow") using the Live Demo. Generate the `settings.xml` text and use it to overwrite `component/settings.xml`
