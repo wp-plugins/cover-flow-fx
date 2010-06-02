@@ -24,13 +24,13 @@ Make sure your Wordpress version is equal or greater than 2.8 and your hosting p
 4. Go to [FlashXML.net](http://www.flashxml.net/ "Free Flash Components") and [customize your Cover Flow](http://www.flashxml.net/cover-flow.html "Cover Flow") using the Live Demo. Generate the `settings.xml` text and use it to overwrite `cover-flow-fx/component/settings.xml`
 5. To use your own images, upload them to the `cover-flow-fx/component/images` directory and update the `cover-flow-fx/component/images.xml` file accordingly
 
-= No Flash support text =
-
-To support visitors without Adobe Flash, you can provide alternative textual content. From the post editor, add the text between `[cover-flow-fx]` and `[/cover-flow-fx]`. From the PHP files of your theme, add the text as *the first argument* of the `coverflowfx_echo_embed_code()` function call.
-
 = Additional settings file =
 
-To embed the Cover Flow more than once, you will need another settings file and (probably) another set of images. Let's assume your new file is called **settings2.xml**. From the post editor, use the following code: `[cover-flow-fx settings="settings2.xml"][/cover-flow-fx]`. From the PHP files of your theme, add the file name as *the second argument* of the `coverflowfx_echo_embed_code()` function call. If you use a separate set of images, don't forget to create a new XML file for that and update the `imagesXML` value in the settings file.
+To embed the Cover Flow more than once, you will need another settings file and (probably) another set of images. Let's assume your new file is called **settings2.xml**. From the post editor, use the following code: `[cover-flow-fx settings="settings2.xml"][/cover-flow-fx]`. From the PHP files of your theme, add the file name as *the first argument* of the `coverflowfx_echo_embed_code()` function call. If you use a separate set of images, don't forget to create a new XML file for that and update the `imagesXML` value in the settings file.
+
+= No Flash support text =
+
+To support visitors without Adobe Flash, you can provide alternative textual content. From the post editor, add the text between `[cover-flow-fx]` and `[/cover-flow-fx]`. From the PHP files of your theme, add the text as *the second argument* of the `coverflowfx_echo_embed_code()` function call.
 
 == Screenshots ==
 
