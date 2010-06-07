@@ -14,10 +14,11 @@
     <imagesXML value="images.xml"/>
     <showAbout value="false"/>
     <widthComponent value="600"/>
-    <heightComponent value="300"/>
+    <heightComponent value="320"/>
     <moveX value="0"/>
     <moveY value="-60"/>
-    <backgroundColor value="0"/>
+    <backgroundColor value="0x1e1e1f"/>
+    <backgroundAlpha value="1"/>
     <cameraX value="0"/>
     <cameraY value="0"/>
     <cameraZ value="-347"/>
@@ -28,23 +29,23 @@
     <cameraZoom value="1"/>
     <cameraUpDown value="0"/>
     <cameraLeftRight value="0"/>
-	<useLightbox value="false" />
+    <useLightbox value="false"/>
   </General_Properties>
   <Reflection_Properties>
-    <alpha value="40"/>
-    <ratio value="200"/>
-    <distance value="2"/>
-    <dropOff value="1"/>
+    <alpha value="41"/>
+    <ratio value="209"/>
+    <distance value="0"/>
+    <dropOff value="0"/>
   </Reflection_Properties>
   <Scroll_Bar>
-    <type_Bar value="MyBar/Plastic1/Bar.xml"/>
+    <type_Bar value="MyBar/Round/Bar.xml"/>
     <width value="400"/>
     <positionY value="244"/>
   </Scroll_Bar>
   <Play_Settings>
     <showPlay value="true"/>
     <autoPlay value="true"/>
-    <slideShowTime value="3"/>
+    <slideShowTime value="2.4"/>
     <ifLastPicture value="back"/>
     <leftRightPlay value="right"/>
     <hPosition value="center"/>
