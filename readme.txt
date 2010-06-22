@@ -2,7 +2,7 @@
 Contributors: flashxml
 Tags: images, photos, widget, post, plugin, posts, sidebar, cover, flow, coverflow, itunes, free, flash, page, slide, portfolio, book, flip, gallery, slideshow, auto, scroll, rotator, scroller, tooltip, text, 3d, scrollbar, image, effect, preloader, as3, horizontal, photo, images, photos, widget, post, plugin, posts, sidebar
 Requires at least: 2.8.0
-Tested up to: 2.9.2
+Tested up to: 3.0
 Stable tag: trunk
 
 == Description ==
