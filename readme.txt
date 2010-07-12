@@ -23,8 +23,8 @@ Make sure your Wordpress version is greater than 2.8 and your hosting provider i
 4. Activate the plugin from the **Plugins** tab in **WordPress Dashboard**
 5. Go to **Cover Flow FX** from the **Settings** tab and update the path in case you used a different one
 6. In the post editor use the following tag to embed the Cover Flow FX: `[cover-flow-fx][/cover-flow-fx]`. You could also add `<?php coverflowfx_echo_embed_code(); ?>` in the PHP file of your theme
-7. Go to [FlashXML.net](http://www.flashxml.net/ "Free Flash Components") and [customize your Cover Flow FX](http://www.flashxml.net/cover-flow.html "Cover Flow FX") using the Live Demo. Generate the `settings.xml` text and use it to overwrite `flashxml/coverflowfx/settings.xml`
-8. To use your own images, upload them to the `flashxml/coverflowfx/images` folder and update the `flashxml/coverflowfx/images.xml` file accordingly
+7. Go to [FlashXML.net](http://www.flashxml.net/ "Free Flash Components") and [customize your Cover Flow FX](http://www.flashxml.net/cover-flow.html "Cover Flow FX") using the Live Demo. Generate the `settings.xml` text and use it to overwrite `flashxml/cover-flow-fx/settings.xml`
+8. To use your own images, upload them to the `flashxml/cover-flow-fx/images` folder and update the `flashxml/cover-flow-fx/images.xml` file accordingly
 
 = Additional settings file =
 
