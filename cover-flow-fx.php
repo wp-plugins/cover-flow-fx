@@ -36,14 +36,10 @@ License: GPL2
 				$height = (int)$data->General_Properties->heightComponent->attributes()->value;
 			}
 		} elseif ((int)$coverflowfx_attributes[4] > 0 && (int)$coverflowfx_attributes[6] > 0) {
-			$width = $coverflowfx_attributes[4];
-			$height = $coverflowfx_attributes[6];
+			$width = (int)$coverflowfx_attributes[4];
+			$height = (int)$coverflowfx_attributes[6];
 		} else {
 			return '<!-- invalid Cover Flow FX width and / or height -->';
-		}
-
-		if ($width == 0 || $height == 0) {
-			return '';
 		}
 
 		$swf_embed = array(
