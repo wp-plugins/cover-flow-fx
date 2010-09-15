@@ -5,11 +5,9 @@ Requires at least: 2.8.0
 Tested up to: 3.0.1
 Stable tag: trunk
 
-== Description ==
-
 One of the most advanced Cover Flows on the web. Completely XML customizable, without using Flash.
 
-= Main features =
+== Description ==
 
 The Cover Flow FX can be embedded in any website for free without even using Flash and it can have an overall width and height up to 1680 x 1050 pixels. I uses the Papervision3D engine and has multiple plane and camera views. It supports all types of images (JPG, GIF, BMP, PNG) which can have different sizes - they will be automatically adjusted to fit in the same height. It has an auto play function with external PNGs (customizable) for play/pause buttons. Optional scroll bar with multiple skins to choose from. Extensive configurations for tooltip and reflection.
 
