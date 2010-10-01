@@ -5,7 +5,7 @@ Requires at least: 2.8.0
 Tested up to: 3.0.1
 Stable tag: trunk
 
-One of the most advanced Cover Flows on the web. Completely XML customizable, without using Flash.
+One of the most advanced Cover Flows on the web. Completely XML customizable without any Flash knowledge. And it's free!
 
 == Description ==
 

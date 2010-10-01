@@ -2,7 +2,7 @@
 /*
 Plugin Name: Cover Flow FX
 Plugin URI: http://www.flashxml.net/cover-flow.html
-Description: One of the most advanced Cover Flows on the web. Completely XML customizable, without using Flash.
+Description: One of the most advanced Cover Flows on the web. Completely XML customizable without any Flash knowledge. And it's free!
 Version: 0.2.7
 Author: FlashXML.net
 Author URI: http://www.flashxml.net/
@@ -45,7 +45,7 @@ License: GPL2
 		$swf_embed = array(
 			'width' => $width,
 			'height' => $height,
-			'text' => trim($coverflowfx_attributes[7]),
+			'text' => isset($coverflowfx_attributes[7]) ? trim($coverflowfx_attributes[7]) : '',
 			'component_path' => WP_CONTENT_URL . "/{$plugin_dir}/",
 			'swf_name' => 'coverflow.swf',
 		);
