@@ -3,7 +3,7 @@
 Plugin Name: Cover Flow FX
 Plugin URI: http://www.flashxml.net/cover-flow.html
 Description: One of the most advanced Cover Flows on the web. Completely XML customizable without any Flash knowledge. And it's free!
-Version: 0.2.7
+Version: 0.2.8
 Author: FlashXML.net
 Author URI: http://www.flashxml.net/
 License: GPL2
