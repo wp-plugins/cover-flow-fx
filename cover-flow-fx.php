@@ -47,7 +47,7 @@ License: GPL2
 			'height' => $height,
 			'text' => isset($coverflowfx_attributes[7]) ? trim($coverflowfx_attributes[7]) : '',
 			'component_path' => WP_CONTENT_URL . "/{$plugin_dir}/",
-			'swf_name' => 'coverflow.swf',
+			'swf_name' => 'CoverFlowFX.swf',
 		);
 		$swf_embed['swf_path'] = $swf_embed['component_path'].$swf_embed['swf_name'];
 
